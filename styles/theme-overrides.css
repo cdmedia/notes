@@ -13,7 +13,29 @@
 }
 #editor--footer {
   font-size:10px;
+  display: none !important;
 }
 .editor--fullscreen.-preview .editor--layout {
   width: 49.9%;
+}
+
+@media (max-width:640px) {
+  .editor--fullscreen .editor--container {
+    width: 100%;
+  }
+
+  .editor--fullscreen.-preview .editor--container {
+    width: 100%
+  }
+
+  .editor--bar, .editor--fullscreen .editor--bar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 10px;
+    height: 38px;
+  }
+  .editor--btns {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
