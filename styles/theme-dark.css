@@ -102,7 +102,7 @@ select.icons.form-control.editor--notebooks--list {
   caret-color: #e2e2e2;
 }
 .CodeMirror-selected {
-  background: #2c2c2c;
+  background: #2c2c2c !important;
 }
 .CodeMirror .CodeMirror-cursor {
   border-left: 3px solid #fff;
