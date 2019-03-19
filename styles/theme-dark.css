@@ -168,6 +168,9 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   font-size: 14px;
 }
 
+.modal-content {
+  background-color: #2f2f2f;
+}
 
 @media (min-width: 768px) {
   .layout--content {
